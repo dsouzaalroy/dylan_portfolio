@@ -16,8 +16,8 @@ export default class Main extends Component {
                 outerAlpha={0.2}
                 innerScale={0.7}
                 outerScale={5}/>
-                <Contents/>
                 <LandingPage />
+                <Contents/>
                 {/* <Component/> */}
             </div>
         )
