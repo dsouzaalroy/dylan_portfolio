@@ -27,9 +27,9 @@ class Contents extends Component {
                 <ReturnImgDiv key={this.state.bgImage} value={this.state.bgImage} />
                 <div id="contents" >
                     <ul>
-                        <li value="1" onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Branding</li>
-                        <li value="2" onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Graphic Design</li>
-                        <li value="3" onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Illustration</li>
+                        <li value="1" onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Branding</li><br/>
+                        <li value="2" onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Graphic Design</li><br/>
+                        <li value="3" onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Illustration</li><br/>
                         <li value="4" onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Animation</li>
                     </ul>
                 </div>
