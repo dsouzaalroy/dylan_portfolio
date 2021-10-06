@@ -23,7 +23,7 @@ class Contents extends Component {
 
     render() {
         return (
-            <div>
+            <div className = 'all_content_Contents'>
                 <ReturnImgDiv key={this.state.bgImage} value={this.state.bgImage} />
                 <div id="contents" >
                     <ul>

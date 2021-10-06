@@ -8,17 +8,16 @@ export default class Main extends Component {
 
     render() {
         return (
-            <div>
-                <AnimatedCursor style = {{}} 
-                innerSize={0}
-                outerSize={100}
+            <div className='çontainer'>
+                <AnimatedCursor
+                innerSize={10}
+                outerSize={50}
                 color='255,255,255'
-                outerAlpha={0.2}
+                outerAlpha={0.5}
                 innerScale={0.7}
-                outerScale={5}/>
-                <LandingPage />
-                <Contents/>
-                {/* <Component/> */}
+                outerScale={2}/>
+                <section className='child'><LandingPage /></section>
+                <section className='child'><Contents /></section>
             </div>
         )
     }

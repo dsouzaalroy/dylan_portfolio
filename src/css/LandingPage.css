@@ -10,7 +10,7 @@ p {
     margin-top: 70px;
 }
 .upper_text {
-  width: 1500px;
+  width: 100vw;
   margin-bottom: -150px;
   margin-left: -77px;
 }
@@ -51,8 +51,8 @@ z-index:1000000;
   margin-left: 20px;
   height: 110px;
   width: 430px;
-  left: 815px;
-  bottom: 143px;
+  left: 110vh;
+  bottom: 7.5vw;
   z-index: -1;
 }
 
@@ -63,12 +63,12 @@ z-index:1000000;
 
 .all_content {
   color: white;
-  width: 1500px;
+  width: 100vw;
+  height: 100vh;
   font-family: "Montserrat", sans-serif;
   letter-spacing: -0.5em;
-  margin: 20 auto;
-  margin-top: 220px;
-  margin-left: 250px;
+  margin: 0 auto ;
+  padding-top: 250px;
   text-align: center;
 }
 
