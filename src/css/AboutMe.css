@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+.all_content_AboutMe{
+    position: relative;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto ;
+    padding-top: 27vh;
+    font-size: 1.5vw;
+    letter-spacing: -0.05em;
+    padding-left: 15vh;
+}
+
+.description{
+    top: 20vh;
+    left: 22vw;
+    position: relative;
+    line-height: 0px;
+    text-align: left;
+}
+.hello{
+    position: relative;
+    font-weight: 600;
+    font-size: 15vh;
+    right:1vh;
+    top:5vh;
+}
+
+.CV{
+    position: relative;
+    text-align: center;
+    top:25vh
+}
+
+.chutiya{
+    position: absolute;
+    top: -5vh;
+    right: -3vh;
+    width: 100vw;
+    height: auto;
+}
+
+.about_text{
+font-weight: 200;
+}

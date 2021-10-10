@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import Contents from './Contents'
 import LandingPage from './LandingPage'
-import Mouse from './Mouse'
+import Statement from './Statement'
+import Services from './Services'
+import AboutMe from './AboutMe'
 import '../css/Main.css'
 import AnimatedCursor from "react-animated-cursor"
 export default class Main extends Component {
@@ -17,7 +19,10 @@ export default class Main extends Component {
                 innerScale={0.7}
                 outerScale={2}/>
                 <section className='child'><LandingPage /></section>
+                <section className='child'><Statement/></section>
                 <section className='child'><Contents /></section>
+                <section className='child'><Services/></section>
+                <section className='child'><AboutMe/></section>
             </div>
         )
     }

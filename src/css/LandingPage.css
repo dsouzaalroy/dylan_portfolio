@@ -28,11 +28,6 @@ p {
   font-size: 100pt;
   font-kerning: none;
 }
-/* span:hover{
-color: black;
-z-index:1000000;
-} */
-
 .uq_inverse {
   margin-left: 20px;
   font-weight: 400;
@@ -68,7 +63,7 @@ z-index:1000000;
   font-family: "Montserrat", sans-serif;
   letter-spacing: -0.5em;
   margin: 0 auto ;
-  padding-top: 250px;
+  padding-top: 27vh;
   text-align: center;
 }
 

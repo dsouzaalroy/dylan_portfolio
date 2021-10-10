@@ -16,7 +16,7 @@ class Contents extends Component {
     img_store = {
         "0": "",
         "1": "https://i.redd.it/iuagl1twm8q71.jpg",
-        "2": "https://preview.redd.it/0xs61hg0mnq71.png?width=640&crop=smart&auto=webp&s=4be743d62d15b8e723343f3177b06d1d3968f66e",
+        "2": "https://i.redd.it/j5ezkcbj81s71.png",
         "3": "https://i.redd.it/o9hd2jwvylq71.png",
         "4": "https://preview.redd.it/rzeo4iqnrmq71.png?width=640&crop=smart&auto=webp&s=cc424cca764378dea466ee00902cea17b3ca0020"
     }
