@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/dylan_portfolio/static/css/main.68cc285f.chunk.css",
-    "main.js": "/dylan_portfolio/static/js/main.5b59d2da.chunk.js",
-    "main.js.map": "/dylan_portfolio/static/js/main.5b59d2da.chunk.js.map",
-    "runtime-main.js": "/dylan_portfolio/static/js/runtime-main.4b9fa051.js",
-    "runtime-main.js.map": "/dylan_portfolio/static/js/runtime-main.4b9fa051.js.map",
-    "static/js/2.12c88f27.chunk.js": "/dylan_portfolio/static/js/2.12c88f27.chunk.js",
-    "static/js/2.12c88f27.chunk.js.map": "/dylan_portfolio/static/js/2.12c88f27.chunk.js.map",
-    "static/js/3.837b3ac9.chunk.js": "/dylan_portfolio/static/js/3.837b3ac9.chunk.js",
-    "static/js/3.837b3ac9.chunk.js.map": "/dylan_portfolio/static/js/3.837b3ac9.chunk.js.map",
+    "main.css": "/dylan_portfolio/static/css/main.f759a69a.chunk.css",
+    "main.js": "/dylan_portfolio/static/js/main.1faee46f.chunk.js",
+    "main.js.map": "/dylan_portfolio/static/js/main.1faee46f.chunk.js.map",
+    "runtime-main.js": "/dylan_portfolio/static/js/runtime-main.e92fd8a1.js",
+    "runtime-main.js.map": "/dylan_portfolio/static/js/runtime-main.e92fd8a1.js.map",
+    "static/js/2.54fd2955.chunk.js": "/dylan_portfolio/static/js/2.54fd2955.chunk.js",
+    "static/js/2.54fd2955.chunk.js.map": "/dylan_portfolio/static/js/2.54fd2955.chunk.js.map",
+    "static/js/3.d5acb280.chunk.js": "/dylan_portfolio/static/js/3.d5acb280.chunk.js",
+    "static/js/3.d5acb280.chunk.js.map": "/dylan_portfolio/static/js/3.d5acb280.chunk.js.map",
     "index.html": "/dylan_portfolio/index.html",
-    "static/css/main.68cc285f.chunk.css.map": "/dylan_portfolio/static/css/main.68cc285f.chunk.css.map",
-    "static/js/2.12c88f27.chunk.js.LICENSE.txt": "/dylan_portfolio/static/js/2.12c88f27.chunk.js.LICENSE.txt",
+    "static/css/main.f759a69a.chunk.css.map": "/dylan_portfolio/static/css/main.f759a69a.chunk.css.map",
+    "static/js/2.54fd2955.chunk.js.LICENSE.txt": "/dylan_portfolio/static/js/2.54fd2955.chunk.js.LICENSE.txt",
     "static/media/eye.45c5a6ec.png": "/dylan_portfolio/static/media/eye.45c5a6ec.png",
     "static/media/photo.cbbf45a9.png": "/dylan_portfolio/static/media/photo.cbbf45a9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4b9fa051.js",
-    "static/js/2.12c88f27.chunk.js",
-    "static/css/main.68cc285f.chunk.css",
-    "static/js/main.5b59d2da.chunk.js"
+    "static/js/runtime-main.e92fd8a1.js",
+    "static/js/2.54fd2955.chunk.js",
+    "static/css/main.f759a69a.chunk.css",
+    "static/js/main.1faee46f.chunk.js"
   ]
 }
