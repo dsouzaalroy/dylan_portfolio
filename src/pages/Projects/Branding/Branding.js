@@ -1,12 +1,17 @@
 import React, { useEffect, useRef } from "react"
 //Custom Hook
-import useWindowSize from "../../hooks/useWindowSize"
+import useWindowSize from "../../../hooks/useWindowSize"
 //Context
+import canvas1 from "../../../assets/canvas_back1.png"
+import canvas2 from "../../../assets/canvas_back2.png"
+import canvas3 from "../../../assets/canvas_back3.png"
+
+
 import {
   Banner,
   Canvas,
   Canvas_Image
-} from "./homeStyles"
+} from "../Branding/css/homeStyles"
 
 const Branding = ({ onCursor }) => {
   const size = useWindowSize()
@@ -85,7 +90,7 @@ const Branding = ({ onCursor }) => {
   return (
 
     <Banner>
-    <Canvas_Image src='https://i.redd.it/amy93en8d6t71.png'/>
+    <Canvas_Image src={canvas3}/>
       <Canvas
         height={size.height}
         width={size.width}

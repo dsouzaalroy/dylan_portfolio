@@ -1,15 +1,16 @@
 import React from "react";
+import "../css/Colophone.css"
 
 export default function Colophone(){
 
     return(
-        <div className = 'setUp'>
             <div className = 'all_content_Colophone'>
-                <h1 className='Title'>Designed by</h1>
+                <div className = 'center_colophone'>
+                <p className='title'>Designed by</p>
                 <p className='person'>Dylan Fernandes</p>
-                <h1 className='Title'>Developed by</h1>
+                <p className='title'>Developed by</p>
                 <p className='person'>Alroy D'souza</p>
-            </div>
+                </div>
         </div>
     )
 }

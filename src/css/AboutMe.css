@@ -7,7 +7,7 @@
     padding-top: 27vh;
     font-size: 1.5vw;
     letter-spacing: -0.05em;
-    padding-left: 15vh;
+    padding-left: 12vh;
 }
 
 .description{
@@ -28,7 +28,8 @@
 .CV{
     position: relative;
     text-align: center;
-    top:25vh
+    top:20vh;
+    right:3.5vw
 }
 
 .dylan{
@@ -41,6 +42,7 @@
 
 p.hover{
     font-weight: 300;
+    left: 1vh;
 }
 .about_text{
 font-weight: 200;

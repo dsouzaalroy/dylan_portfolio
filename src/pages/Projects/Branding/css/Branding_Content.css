@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+.all_content_Branding_Content{
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+li.Title_Branding_Contents{
+    font-size:2vw;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+li{
+    font-weight: 600;
+    font-size: 3.5vw;
+}

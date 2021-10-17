@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap");
+
+
+.all_content_Connect{
+    font-weight: 300;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto ;
+    text-align: center;
+    font-size: 2.5vw;
+    letter-spacing: -0.05em;
+    padding-top: 10vh;
+}
+
+p.Title_connect{
+    font-size: 5vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}

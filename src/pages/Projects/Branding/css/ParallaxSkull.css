@@ -1,0 +1,11 @@
+.skullcandy_pattern{
+    display: flex;
+    height: 50vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom_class{
+    width: 50%;
+}

@@ -44,7 +44,7 @@ class Contents extends Component {
                     <ReturnImgDiv key={this.state.bgImage} value={this.state.bgImage} />
                     <div id="contents" className="reveal-text">
                         <ul>
-                            <a href='/Branding'><motion.li className = 'hover' onHoverStart={clearTransition} animate={this.state.animations} transition={bounceTransition} value="1" onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Branding</motion.li><br /></a>
+                            <a href='#/Branding/'><motion.li className = 'hover' onHoverStart={clearTransition} animate={this.state.animations} transition={bounceTransition} value="1" onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Branding</motion.li><br /></a>
                             <li value="2" className = 'hover' onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Graphic Design</li><br />
                             <li value="3" className = 'hover' onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Illustration</li><br />
                             <li value="4" className = 'hover' onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Animation</li><br />
