@@ -31,7 +31,7 @@
     top:25vh
 }
 
-.chutiya{
+.dylan{
     position: absolute;
     top: -5vh;
     right: -3vh;
@@ -39,6 +39,10 @@
     height: auto;
 }
 
+p.hover{
+    font-weight: 300;
+}
 .about_text{
 font-weight: 200;
+line-height: 7px;
 }

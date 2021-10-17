@@ -5,25 +5,33 @@ import Statement from './Statement'
 import Services from './Services'
 import AboutMe from './AboutMe'
 import '../css/Main.css'
-import AnimatedCursor from "react-animated-cursor"
-export default class Main extends Component {
+import Branding from './Projects/Branding.js'
+import CustomCursor from './CustomCursor'
+import Colophone from './Colophone'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-    render() {
+export default function Main(){
+        const onCursor = cursorType => {
+
+        }
         return (
             <div className='çontainer'>
-                <AnimatedCursor
-                innerSize={10}
-                outerSize={50}
-                color='255,255,255'
-                outerAlpha={0.5}
-                innerScale={0.7}
-                outerScale={2}/>
-                <section className='child'><LandingPage /></section>
-                <section className='child'><Statement/></section>
-                <section className='child'><Contents /></section>
-                <section className='child'><Services/></section>
-                <section className='child'><AboutMe/></section>
+                <BrowserRouter>
+                <CustomCursor/>
+                    <Switch>
+                        <Route exact path="/dylan_portfolio">
+                            <section className='child'><LandingPage /></section>
+                            <section className='child'><Statement /></section>
+                            <section className='child'><Contents /></section>
+                            <section className='child'><Services /></section>
+                            <section className='child'><AboutMe /></section>
+                            {/* <section className='child'><Colophone/></section> */}
+                        </Route>
+                        <Route path = "/Branding">
+                            <Branding onCursor={onCursor}/>
+                        </Route>
+                    </Switch>
+                </BrowserRouter>
             </div>
         )
     }
-}

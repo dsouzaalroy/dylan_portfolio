@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+ul{
+    list-style: none;
+}
+body{
+  background-color: black;
+}
+.show_image{
+  height: 100vh;
+}
+
+.all_content_Contents{
+  font-weight: 200;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto ;
+  padding-top: 27vh;
+  text-align: center;
+  font-size: 1.5vw;
+  letter-spacing: -0.05em;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.basket {
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+.basket.hide {
+  opacity: 1;
+  pointer-events:none;
+}
+
+#contents {
+    width:1500px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size:100px;
+    text-align: center;
+    } 
+
+ .hover {
+  text-decoration: none;
+  position: relative;
+  display: block;
+  transition: color 0.1s, background-color 0.1s;
+  font-weight: 700;
+  letter-spacing: -.05em;
+  color: white;
+  display: inline-block;
+}
+
+.hover:hover {
+  color: white;
+}
+.hover:focus, il:active {
+  color: white;
+}
+
+.hover::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 100%;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  transition: color 0.1s, -webkit-transform 0.2s ease-out;
+  transition: color 0.1s, transform 0.2s ease-out;
+  transition: color 0.1s, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.hover:active::before {
+  background-color: white;
+}
+.hover:hover::before,
+.hover:focus::before {
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+.reveal-text,
+.reveal-text::after {
+	animation-delay: var(--animation-delay, 2s);
+	animation-iteration-count: var(--iterations, 1);
+	animation-duration: var(--duration, 800ms);
+	animation-fill-mode: both;
+	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.reveal-text {
+	--animation-delay: var(--delay, 0);
+	--animation-duration: var(--duration, 800ms);
+	--animation-iterations: var(--iterations, 1);
+	position: relative;
+	font-size: 10vw;
+	animation-name: clip-text;
+	color: #FFF;
+	white-space: nowrap;
+	cursor: default;
+	
+	&::after {
+		content: "";
+		position: absolute;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: black;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+		pointer-events: none;
+		animation-name: text-revealer;
+	}
+	
+}
+
+
+@keyframes clip-text {
+	from {
+		clip-path: inset(0 100% 0 0);
+	}
+	to {
+		clip-path: inset(0 0 0 0);
+	}
+}
+
+
+@keyframes text-revealer {
+	
+	0%, 50% {
+		transform-origin: 0 50%;
+	}
+	
+	60%, 100% {
+		transform-origin: 100% 50%;		
+	}
+
+	
+	60% {
+		transform: scaleX(1);
+	}
+	
+	100% {
+		transform: scaleX(0);
+	}
+}

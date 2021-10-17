@@ -1,10 +1,6 @@
 AnimatedCursor {
   z-index: 2;
 }
-/* html {
-  overflow: scroll;
-  scroll-snap-type: y mandatory;
-} */
 
 .child {
   scroll-snap-align: start;
@@ -14,7 +10,10 @@ AnimatedCursor {
   height: 100vh;
   width: 100vw;
 }
+
 *{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;
+  cursor: none;
 }
+

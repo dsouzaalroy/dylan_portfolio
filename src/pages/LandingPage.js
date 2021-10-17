@@ -13,8 +13,12 @@ export default class LandingPage extends Component {
           ease: "easeInOut",
         }
       }
+      const variants = {
+        visible: { opacity: 1 },
+        hidden: { opacity: 0 },
+    }
     return (
-      <div className="all_content">
+      <motion.div variants={variants}initial="hidden" animate="visible" transition={{ ease: "easeIn", duration: 0.5 }} className="all_content">
         <div className="upper_text">
           <span className="small_help"> I help you </span>
           <span className="big_create">Create </span>
@@ -27,7 +31,7 @@ export default class LandingPage extends Component {
         <div><p id='desc'>Creative designer and Visualiser</p></div>
         <motion.img animate={{y:["15%", "-10%"]}} transition={bounceTransition} className ="mouse" src ={scroll_mouse}/>
 
-      </div>
+      </motion.div>
     );
   }
 }

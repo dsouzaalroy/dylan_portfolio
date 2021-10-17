@@ -12,8 +12,9 @@ class Services extends Component{
                 <div className='all_content_Services'>
                         <p className = 'Title'>SERVICES</p>
                     <div className = 'Services'>
-                        <p>I want to help my clients bring about a postitive change</p>
-                        <p>While using an impactful and fun design process</p>
+                        <p>I want to help my clients bring about a postitive change.</p>
+                        <p>While using an impactful and fun design process.</p>
+                        <p style = {{lineHeight:'3'}}>Lorem ipsum</p>
                     </div>
                     <br></br>
                     <div className = 'Tools'>

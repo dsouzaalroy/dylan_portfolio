@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap");
 
-
-.all_content_Services{
+.all_content_Colophone{
     font-weight: 300;
     color: white;
     width: 100vw;
@@ -11,18 +10,5 @@
     padding-top: 25vh;
     text-align: center;
     font-size: 1.7vw;
-    letter-spacing: -0.05em;
-}
-.Title{
-    font-weight: 500;
-    line-height: 2;
-}
-
-.Services{
-    line-height: 0.2;
-}
-
-.Tools{
-    position:relative;
-    bottom: 5vh;
+    letter-spacing: -0.05em; 
 }

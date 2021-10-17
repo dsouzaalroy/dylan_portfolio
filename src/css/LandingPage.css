@@ -6,7 +6,7 @@ p {
 #desc{
     letter-spacing: -0.045em;
     font-weight: 500;
-    font-size:25pt;
+    font-size:1.7vw;
     margin-top: 70px;
 }
 .upper_text {
@@ -17,7 +17,7 @@ p {
 
 .small_help {
   font-weight: 400;
-  font-size: 25pt;
+  font-size: 1.7vw;
   font-kerning: none;
   letter-spacing: -0.05em;
 }
@@ -25,13 +25,13 @@ p {
 .big_create {
   margin-left: 20px;
   font-weight: 300;
-  font-size: 100pt;
+  font-size: 6.8vw;
   font-kerning: none;
 }
 .uq_inverse {
   margin-left: 20px;
   font-weight: 400;
-  font-size: 100pt;
+  font-size: 6.8vw;
   letter-spacing: -0.08em;
   color: black;
   border-color: red;
@@ -39,21 +39,19 @@ p {
 }
 
 .white_box {
-  width: 320px;
   padding: 13px;
   background-color: white;
   position: relative;
-  margin-left: 20px;
-  height: 110px;
-  width: 430px;
-  left: 110vh;
+  height: 11.7vh;
+  width: 23vw;
+  left: 112vh;
   bottom: 7.5vw;
   z-index: -1;
 }
 
 .bld_dsgn {
   font-weight: 500;
-  font-size: 100pt;
+  font-size: 6.8vw;
 }
 
 .all_content {
@@ -67,8 +65,5 @@ p {
   text-align: center;
 }
 
-.mouse{
-    margin-top: 80px;
-}
 
 
