@@ -10,6 +10,7 @@ li.Title_Branding_Contents{
     font-size:2vw;
     font-weight: 300;
     text-transform: uppercase;
+    line-height: 100px;
 }
 
 li{

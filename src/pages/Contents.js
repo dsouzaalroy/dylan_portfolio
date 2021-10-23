@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import "../css/Contents.scss"
 import { motion } from "framer-motion";
-
+import animation from "../assets/Branding/animation_img.jpg"
+import branding from "../assets/Branding/branding_img.png"
+import graphic_design from "../assets/Branding/graphic_design_image.jpg"
 class Contents extends Component {
     constructor(props) {
         super(props)
@@ -17,10 +19,9 @@ class Contents extends Component {
 
     img_store = {
         "0": "",
-        "1": "https://i.redd.it/iuagl1twm8q71.jpg",
-        "2": "https://preview.redd.it/0xs61hg0mnq71.png?width=640&crop=smart&auto=webp&s=4be743d62d15b8e723343f3177b06d1d3968f66e",
-        "3": "https://i.redd.it/o9hd2jwvylq71.png",
-        "4": "https://preview.redd.it/rzeo4iqnrmq71.png?width=640&crop=smart&auto=webp&s=cc424cca764378dea466ee00902cea17b3ca0020"
+        "1": branding,
+        "2": graphic_design,
+        "3": animation
     }
 
     render() {
@@ -46,8 +47,7 @@ class Contents extends Component {
                         <ul>
                             <a href='#/Branding/'><motion.li className = 'hover' onHoverStart={clearTransition} animate={this.state.animations} transition={bounceTransition} value="1" onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Branding</motion.li><br /></a>
                             <li value="2" className = 'hover' onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Graphic Design</li><br />
-                            <li value="3" className = 'hover' onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Illustration</li><br />
-                            <li value="4" className = 'hover' onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Animation</li><br />
+                            <li value="3" className = 'hover' onMouseEnter={this.changeToImage} onMouseOut={this.changeToDefault}>Animation</li><br />
                         </ul>
                     </div>
                 </div>

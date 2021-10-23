@@ -5,7 +5,7 @@ import './css/ParallaxSkull.css'
 
 
 export default function ParallaxSkull(){
-    const[disabled,setDisabled] = useState(true)
+    const[disabled,setDisabled] = useState(false)
     useEffect(()=>{
         setDisabled(false);
     })
@@ -13,14 +13,22 @@ export default function ParallaxSkull(){
     return(
         <div className='setUp'>
             <div>
-                <img className = 'skullcandy_pattern'src={skullcandy}></img>
             </div>
-            <Parallax className="custom-class" x={[-20, 20]} tagOuter="figure" disabled={disabled}>
-                <p>Complete Rebrand for</p>
+            <div className ='custom_class'>
+            <div className='same_line'>
+                        <span className='academic'>Academic Project</span>
+                        <span className='year'>Year:2019-2020</span>
+                    </div>
+            <Parallax x={[-20, 20]} tagOuter="figure">
+                <p className='parallax_1'>Complete Rebrand for</p>
+                <p className='parallax_1_1'>Complete Rebrand for</p>
             </Parallax>
-            <Parallax className="custom-class" x={[20, -20]} tagOuter="figure" disabled={disabled}>
-                <p>Skullcandy studios</p>
+            <Parallax x={[20, -20]} tagOuter="figure">
+                <p className='parallax_2'>Skullcandy studios</p>
+                <p className='parallax_2_1'>Skullcandy studios</p>
             </Parallax>
+            <img className = 'skullcandy_pattern'src={skullcandy}></img>
+            </div>
         </div>
     )
-}
+}   

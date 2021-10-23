@@ -25,10 +25,17 @@
     height: 50vh;
     width: 50vw;
   }
-  .Carousel{
-      margin: 0 auto;
-      height:100vh;
-      width:50vw;
-      position:relative;
-      right:40vh
-  }
+
+.Carousel{
+    margin: 0 auto;
+    height:100vh;
+    width:50vw;
+    position:relative;
+    right:40vh
+}
+
+.thumbs-wrapper{
+    width: fit-content;
+    position: relative;
+    left:15vw
+}

@@ -3,6 +3,30 @@ import { Slide } from 'react-slideshow-image';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import './css/SlideShow.css'
+import slide2 from '../../../assets/slideshow/slide2.jpg'
+import slide3 from '../../../assets/slideshow/slide1.jpg'
+import slide4 from '../../../assets/slideshow/bottle.jpg'
+// Stationary Slideshow
+import stationary_1 from '../../../assets/slideshow/Stationary_Slideshow/stationary_1.png'
+import stationary_2 from '../../../assets/slideshow/Stationary_Slideshow/stationary_2.png'
+import folder from '../../../assets/slideshow/Stationary_Slideshow/folder.png'
+import lanyard from '../../../assets/slideshow/Stationary_Slideshow/lanyard.png'
+import visitingCard_1 from '../../../assets/slideshow/Stationary_Slideshow/visitingCard_1.png'
+import visitingCard_2 from '../../../assets/slideshow/Stationary_Slideshow/visitingCard_2.png'
+import duct_tape from '../../../assets/slideshow/Stationary_Slideshow/duct_tape.png'
+
+// Apparel Slideshow
+import bag_shirt from '../../../assets/slideshow/Apparel/bag_shirt.png'
+import clock from '../../../assets/slideshow/Apparel/clock.png'
+import shirt_back from '../../../assets/slideshow/Apparel/shirt_back.png'
+import shirt_front from '../../../assets/slideshow/Apparel/shirt_front.jpg'
+import shopbag from '../../../assets/slideshow/Apparel/shopbag.png'
+import tshirt_2 from '../../../assets/slideshow/Apparel/tshirt_2.png'
+// import bag_shirt from '../../../assets/slideshow/Apparel/bag_shirt'
+
+
+
+let slideshow='../../../assets/slideshow/'
 
 export default function SlideShow() {
 
@@ -19,49 +43,58 @@ export default function SlideShow() {
     ];
 
     const properties = {
-        duration: 1000,
-        autoplay: true,
-        transitionDuration: 500,
-        arrows: false,
-        infinite: true,
-        easing: "ease",
+        showArrows:false,
+        autoPlay:true,
+        autoFocus:false,
+        centerMode:true,
+        dynamicHeight:true,
+        infiniteLoop:true,
+        showIndicators:true,
+        showStatus:false,
+        width:1700,
+        interval:2000,
+        centerSlidePercentage:50,
+        className:'Carousel',
+        thumbWidth:140
       };
+
+      const slideStationary = [stationary_1,stationary_2,duct_tape,folder,lanyard,visitingCard_1,visitingCard_2]
+      const slideApparel = [bag_shirt,clock,shirt_back,shirt_front,shopbag,tshirt_2]
 
     return (
         <div className='setUp'>
             <div className='all_content_Slideshow'>
-                {/* <Slide {...properties}>
-                    {slideImages.map((slideImage, index) => (
-                        <div className="each-slide" key={index}>
-                            <div style={{ 'backgroundImage': `url(${slideImage.url})` }}>
-                                <span>{slideImage.caption}</span>
-                            </div>
-                        </div>))}
-                </Slide> */}
                 <Carousel
-                showArrows={false}
-                autoPlay={true}
-                centerMode={true}
-                dynamicHeight={true}
-                infiniteLoop={true}
-                showIndicators={true}
-                showStatus={false}
-                width={1700}
-                interval={2000}
-                centerSlidePercentage={50}
-                className = 'Carousel'
-                thumbWidth={100}
+                {...properties}
                 >
                 <div>
-                    {/* 2560/1440p optimal */}
-                    <img src='https://i.redd.it/dxergc4eqyt71.jpg' />
+                    <img className = 'resize' src={slide2} />
                 </div>
                 <div>
-                    <img src="https://preview.redd.it/1pm4kag7rkt71.jpg?width=960&crop=smart&auto=webp&s=56a6bb3d413cbea14cdcc42d1c5bb721490168b7" />
+                    <img className = 'resize' src={slide3} />
                 </div>
-                <div>
-                    <img src="https://i.redd.it/4k6anfkwtft71.png" />
-                </div>
+                </Carousel>
+                
+
+                <Carousel {...properties}>
+                    {slideStationary.map((n) =>{
+                        return(
+                            <div>
+                                <img src={n}/>
+                            </div>
+                        )
+                    })}
+
+                </Carousel>
+                <Carousel {...properties}>
+                    {slideApparel.map((n) =>{
+                        return(
+                            <div>
+                                <img src={n}/>
+                            </div>
+                        )
+                    })}
+
                 </Carousel>
             </div>
         </div>

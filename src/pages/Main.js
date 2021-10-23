@@ -14,6 +14,8 @@ import Connect from './Connect'
 import SlideShow from './Projects/Branding/SlideShow'
 import ParallaxSkull from './Projects/Branding/ParallaxSkull'
 import Branding_Content from './Projects/Branding/Branding_Content';
+import About from './Projects/Branding/About';
+import Canvas_test from './Projects/Branding/Canvas_test';
 
 
 export default function Main() {
@@ -37,9 +39,10 @@ export default function Main() {
                     <Route path="/Branding/" >
                         <ParallaxProvider>
                             <Branding onCursor={onCursor} />
+                            <ParallaxSkull />
+                            <About/>
                             <Branding_Content/>
                             <SlideShow />
-                            {/* <ParallaxSkull /> */}
                         </ParallaxProvider>
                     </Route>
                 </Switch>
