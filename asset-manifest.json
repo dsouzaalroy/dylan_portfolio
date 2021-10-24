@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dylan_portfolio/static/css/main.f4d090ca.chunk.css",
-    "main.js": "/dylan_portfolio/static/js/main.f261d3ae.chunk.js",
-    "main.js.map": "/dylan_portfolio/static/js/main.f261d3ae.chunk.js.map",
+    "main.js": "/dylan_portfolio/static/js/main.c81d2bc9.chunk.js",
+    "main.js.map": "/dylan_portfolio/static/js/main.c81d2bc9.chunk.js.map",
     "runtime-main.js": "/dylan_portfolio/static/js/runtime-main.5f25105b.js",
     "runtime-main.js.map": "/dylan_portfolio/static/js/runtime-main.5f25105b.js.map",
     "static/css/2.3c029b43.chunk.css": "/dylan_portfolio/static/css/2.3c029b43.chunk.css",
@@ -19,7 +19,6 @@
     "static/media/baatli.26b61f9d.jpg": "/dylan_portfolio/static/media/baatli.26b61f9d.jpg",
     "static/media/bag_shirt.3f3e9cb6.jpg": "/dylan_portfolio/static/media/bag_shirt.3f3e9cb6.jpg",
     "static/media/branding_img.793a2bc7.png": "/dylan_portfolio/static/media/branding_img.793a2bc7.png",
-    "static/media/canvas_back2.6fd34708.png": "/dylan_portfolio/static/media/canvas_back2.6fd34708.png",
     "static/media/canvas_back3.79790fc5.png": "/dylan_portfolio/static/media/canvas_back3.79790fc5.png",
     "static/media/clock.24dbb172.jpg": "/dylan_portfolio/static/media/clock.24dbb172.jpg",
     "static/media/displacement_image.1ded8f85.png": "/dylan_portfolio/static/media/displacement_image.1ded8f85.png",
@@ -31,6 +30,7 @@
     "static/media/kissan.ff8eaa41.png": "/dylan_portfolio/static/media/kissan.ff8eaa41.png",
     "static/media/lanyard.7c1e51f0.png": "/dylan_portfolio/static/media/lanyard.7c1e51f0.png",
     "static/media/menu1.a305e948.jpg": "/dylan_portfolio/static/media/menu1.a305e948.jpg",
+    "static/media/over_canvas.3aad84f1.jpg": "/dylan_portfolio/static/media/over_canvas.3aad84f1.jpg",
     "static/media/package1.ac5cd00b.jpg": "/dylan_portfolio/static/media/package1.ac5cd00b.jpg",
     "static/media/package2.a7ebc5ca.jpg": "/dylan_portfolio/static/media/package2.a7ebc5ca.jpg",
     "static/media/package3.a41f30fe.jpg": "/dylan_portfolio/static/media/package3.a41f30fe.jpg",
@@ -57,6 +57,6 @@
     "static/css/2.3c029b43.chunk.css",
     "static/js/2.d83c701a.chunk.js",
     "static/css/main.f4d090ca.chunk.css",
-    "static/js/main.f261d3ae.chunk.js"
+    "static/js/main.c81d2bc9.chunk.js"
   ]
 }
