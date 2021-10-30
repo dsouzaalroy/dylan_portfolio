@@ -11,6 +11,7 @@ body{
 }
 
 .all_content_Contents{
+  position: relative;
   font-weight: 200;
   color: white;
   width: 100vw;
@@ -21,6 +22,8 @@ body{
   text-align: center;
   font-size: 1.5vw;
   letter-spacing: -0.05em;
+  line-height: 10vh;
+  right: 1vw;
 }
 
 img.bg {
@@ -47,12 +50,13 @@ img.bg {
 }
 
 #contents {
-    width:1500px;
+    width:50%;
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
-    margin-top: 200px;
-    font-size:100px;
+    margin-top: 20vh;
+    font-size:6.25rem;
     text-align: center;
+    line-height: 10vh;
     } 
 
  .hover {

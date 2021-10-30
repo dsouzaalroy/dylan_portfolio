@@ -22,7 +22,7 @@ export default class LandingPage extends Component {
         <div className="upper_text">
           <span className="small_help"> I help you </span>
           <span className="big_create">Create </span>
-          <span className="uq_inverse"> Unique </span>
+          <span className="uq_inverse"> Unique</span>
           <div className="white_box"></div>
         </div>
         <div className="lower_Text">

@@ -17,25 +17,29 @@
     justify-content: center;
     align-items: center; */
 }
-.each-slide > div {
+/* .each-slide > div {
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
     height: 50vh;
     width: 50vw;
-  }
+  } */
 
-.Carousel{
+/* .Carousel{
     margin: 0 auto;
-    height:100vh;
     width:50vw;
     position:relative;
-    right:40vh
-}
+    right:50vh;
+    min-width: 50v;
+} */
 
 .thumbs-wrapper{
     width: fit-content;
     position: relative;
-    left:15vw
+}
+
+.Slide_Title{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }

@@ -1,0 +1,16 @@
+.thumbs{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.Slideshow_G{
+    padding-top: 40vh;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 1.7vw;
+    letter-spacing: -0.05em;
+}

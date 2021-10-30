@@ -1,0 +1,12 @@
+.imgContainer{
+
+    justify-content: center;
+    align-items: center;
+}
+
+.center_g2{
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component,useEffect } from 'react'
 import { ParallaxProvider } from 'react-scroll-parallax'; 
 import { HashRouter, Switch, Route } from 'react-router-dom'
 import Contents from './Contents'
@@ -15,8 +15,12 @@ import SlideShow from './Projects/Branding/SlideShow'
 import ParallaxSkull from './Projects/Branding/ParallaxSkull'
 import Branding_Content from './Projects/Branding/Branding_Content';
 import About from './Projects/Branding/About';
-import Canvas_test from './Projects/Branding/Canvas_test';
-
+import Kisanjam from './Projects/GraphicDesign/pages/Kisanjam';
+import Gallery from './Projects/GraphicDesign/pages/Gallery';
+import Coke from './Projects/GraphicDesign/pages/Coke';
+import Gallery2 from './Projects/GraphicDesign/pages/Gallery2';
+import Slideshow_G from './Projects/GraphicDesign/pages/Slideshow_G';
+import VideoPlayer from './Projects/Animation/VideoPlayer';
 
 export default function Main() {
     const onCursor = cursorType => {
@@ -36,14 +40,25 @@ export default function Main() {
                         <section className='child'><Connect /></section>
                         <section className='child'><Colophone /></section>
                     </Route>
-                    <Route path="/Branding/" >
+                    <Route path="/Branding" >
                         <ParallaxProvider>
-                            <Branding onCursor={onCursor} />
+                            <Branding onCursor={onCursor}/>
                             <ParallaxSkull />
                             <About/>
                             <Branding_Content/>
                             <SlideShow />
                         </ParallaxProvider>
+                    </Route>
+                    <Route path="/Graphic_Design" >
+                        <Kisanjam/>
+                        <Gallery/>
+                        <Coke/>
+                        <Gallery2/>
+                        <Slideshow_G/>
+                    </Route>
+                    <Route path="/Animation" >
+                        <VideoPlayer/>
+                        
                     </Route>
                 </Switch>
             </HashRouter>

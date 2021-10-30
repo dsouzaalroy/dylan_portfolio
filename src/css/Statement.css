@@ -42,12 +42,12 @@
 .statement_1,
 .statement_1_2{
     left:70vw;   
-    bottom: 100vh;
+    bottom: 90vh;
 }
 .statement_2,
 .statement_2_2{
     right: 90vw;
-    bottom: 90vh;
+    bottom: 80vh;
 }
 
 .statement_1_2,.statement_2_2{

@@ -1,0 +1,29 @@
+.navigator_footer{
+    display: inline-block;
+    position: relative;
+    line-height:0;
+    text-decoration: none;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.back{
+    text-align: left;
+    font-size: 3rem;
+    bottom: 5vh;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.nextProject{
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.float_left{
+    float: left;
+}
+

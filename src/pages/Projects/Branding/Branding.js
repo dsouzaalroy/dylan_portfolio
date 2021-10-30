@@ -2,8 +2,8 @@ import React, { useEffect, useRef } from "react"
 //Custom Hook
 import useWindowSize from "../../../hooks/useWindowSize"
 //Context
-import canvas1 from "../../../assets/canvas_back1.png"
-import canvas2 from "../../../assets/canvas_back2.png"
+// import canvas1 from "https://i.pinimg.com/originals/a2/4e/d1/a24ed1a9e230248c45b8c30df1319732.jpg"
+import canvas2 from "../../../assets/over_canvas.jpg"
 import canvas3 from "../../../assets/canvas_back3.png"
 
 
@@ -25,10 +25,14 @@ const Branding = ({ onCursor }) => {
     let lastX
     let lastY
     let moving = false
+    window.scrollTo(0, 0);
 
     renderingCtx.globalCompositeOperation = "source-over"
-    renderingCtx.fillStyle = "#000000"
-    renderingCtx.fillRect(0, 0, size.width, size.height)
+    let img=new Image();
+    img.onload = function(){
+      renderingCtx.drawImage(img,0,0,size.width,size.height);
+    };
+    img.src=canvas2 //"https://i.pinimg.com/originals/a2/4e/d1/a24ed1a9e230248c45b8c30df1319732.jpg";
 
     renderingElement.addEventListener("mouseover", ev => {
       moving = true
@@ -58,7 +62,7 @@ const Branding = ({ onCursor }) => {
         drawingCtx.moveTo(lastX, lastY)
         drawingCtx.lineTo(currentX, currentY)
         drawingCtx.closePath()
-        drawingCtx.lineWidth = 120
+        drawingCtx.lineWidth = 90
         drawingCtx.stroke()
         lastX = currentX
         lastY = currentY
