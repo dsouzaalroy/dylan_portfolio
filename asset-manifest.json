@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dylan_portfolio/static/css/main.2bc1d36c.chunk.css",
-    "main.js": "/dylan_portfolio/static/js/main.8fbac1b4.chunk.js",
-    "main.js.map": "/dylan_portfolio/static/js/main.8fbac1b4.chunk.js.map",
-    "runtime-main.js": "/dylan_portfolio/static/js/runtime-main.6bf76119.js",
-    "runtime-main.js.map": "/dylan_portfolio/static/js/runtime-main.6bf76119.js.map",
+    "main.css": "/dylan_portfolio/static/css/main.6b6c87a6.chunk.css",
+    "main.js": "/dylan_portfolio/static/js/main.6e7fd2e8.chunk.js",
+    "main.js.map": "/dylan_portfolio/static/js/main.6e7fd2e8.chunk.js.map",
+    "runtime-main.js": "/dylan_portfolio/static/js/runtime-main.cee9d4b0.js",
+    "runtime-main.js.map": "/dylan_portfolio/static/js/runtime-main.cee9d4b0.js.map",
     "static/css/2.3c029b43.chunk.css": "/dylan_portfolio/static/css/2.3c029b43.chunk.css",
-    "static/js/2.aa22be6a.chunk.js": "/dylan_portfolio/static/js/2.aa22be6a.chunk.js",
-    "static/js/2.aa22be6a.chunk.js.map": "/dylan_portfolio/static/js/2.aa22be6a.chunk.js.map",
-    "static/js/3.6f23007f.chunk.js": "/dylan_portfolio/static/js/3.6f23007f.chunk.js",
-    "static/js/3.6f23007f.chunk.js.map": "/dylan_portfolio/static/js/3.6f23007f.chunk.js.map",
+    "static/js/2.291e78de.chunk.js": "/dylan_portfolio/static/js/2.291e78de.chunk.js",
+    "static/js/2.291e78de.chunk.js.map": "/dylan_portfolio/static/js/2.291e78de.chunk.js.map",
+    "static/js/3.c1682326.chunk.js": "/dylan_portfolio/static/js/3.c1682326.chunk.js",
+    "static/js/3.c1682326.chunk.js.map": "/dylan_portfolio/static/js/3.c1682326.chunk.js.map",
     "index.html": "/dylan_portfolio/index.html",
     "static/css/2.3c029b43.chunk.css.map": "/dylan_portfolio/static/css/2.3c029b43.chunk.css.map",
-    "static/css/main.2bc1d36c.chunk.css.map": "/dylan_portfolio/static/css/main.2bc1d36c.chunk.css.map",
-    "static/js/2.aa22be6a.chunk.js.LICENSE.txt": "/dylan_portfolio/static/js/2.aa22be6a.chunk.js.LICENSE.txt",
+    "static/css/main.6b6c87a6.chunk.css.map": "/dylan_portfolio/static/css/main.6b6c87a6.chunk.css.map",
+    "static/js/2.291e78de.chunk.js.LICENSE.txt": "/dylan_portfolio/static/js/2.291e78de.chunk.js.LICENSE.txt",
     "static/media/12moods.a6cd6e2e.png": "/dylan_portfolio/static/media/12moods.a6cd6e2e.png",
     "static/media/animation_img.bad36184.jpg": "/dylan_portfolio/static/media/animation_img.bad36184.jpg",
     "static/media/baatli.26b61f9d.jpg": "/dylan_portfolio/static/media/baatli.26b61f9d.jpg",
@@ -56,6 +56,7 @@
     "static/media/package3.a41f30fe.jpg": "/dylan_portfolio/static/media/package3.a41f30fe.jpg",
     "static/media/package4.b92fd418.jpg": "/dylan_portfolio/static/media/package4.b92fd418.jpg",
     "static/media/photo.cbbf45a9.png": "/dylan_portfolio/static/media/photo.cbbf45a9.png",
+    "static/media/portfolio.32f9c65e.jpg": "/dylan_portfolio/static/media/portfolio.32f9c65e.jpg",
     "static/media/product_final.e0201883.png": "/dylan_portfolio/static/media/product_final.e0201883.png",
     "static/media/product_purchase.34fddcb3.png": "/dylan_portfolio/static/media/product_purchase.34fddcb3.png",
     "static/media/shirt_back.2108083b.jpg": "/dylan_portfolio/static/media/shirt_back.2108083b.jpg",
@@ -79,10 +80,10 @@
     "static/media/white_back.9a23ec54.jpg": "/dylan_portfolio/static/media/white_back.9a23ec54.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6bf76119.js",
+    "static/js/runtime-main.cee9d4b0.js",
     "static/css/2.3c029b43.chunk.css",
-    "static/js/2.aa22be6a.chunk.js",
-    "static/css/main.2bc1d36c.chunk.css",
-    "static/js/main.8fbac1b4.chunk.js"
+    "static/js/2.291e78de.chunk.js",
+    "static/css/main.6b6c87a6.chunk.css",
+    "static/js/main.6e7fd2e8.chunk.js"
   ]
 }
